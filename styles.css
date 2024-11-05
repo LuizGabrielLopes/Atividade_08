@@ -55,6 +55,8 @@ header {
     color: white;
     margin: 2%;
     font-size: larger;
+    padding: 2rem;
+    margin-left: 3rem;
 }
 
 .menu-icon {
@@ -146,3 +148,135 @@ header {
     margin-left: 1rem;
 }
 
+.price {
+    background-color: rgb(156, 151, 151);
+}
+
+.total-price {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 20rem;
+    padding: 1rem;
+}
+
+.cancel-deal {
+    height: 4rem;
+    width: 18rem;
+    display: flex;
+    background-color: rgb(201, 42, 31);
+    border-radius: 1rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.x {
+    width: 10%;
+    margin-left: 2rem;
+}
+
+.checkout-btn {
+    height: 4rem;
+    width: 18rem;
+    display: flex;
+    background-color: rgb(9, 103, 243);
+    border-radius: 1rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.check {
+    width: 10%;
+    margin-left: 2rem;
+}
+
+.botton {
+    display: flex;
+    gap: 4rem;
+}
+
+.milagre {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side {
+    background-color: black;
+    width: 50%;
+    height: 54.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout {
+    color: white;
+    font-size: 1.75rem;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin: 4rem;
+}
+
+.line2 {
+    display: flex;
+    background-color: #f2efe5;
+    width: 29rem;
+    height: 0.075rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 1rem;
+}
+
+.icone {
+    width: 6%;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    gap: 4rem;
+    margin: 1%;
+}
+
+.pay-with {
+    color: white;
+    margin: 3rem;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.card-mastercard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.footer {
+    color: #e9e9e9;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: end;
+    flex-direction: row;
+    gap: 10rem;
+    margin-left: 4rem;
+    margin-top: 11rem;
+}
+
+.line3 {
+    display: flex;
+    background-color: #f2efe5;
+    width: 6.8rem;
+    height: 0.075rem;
+}
